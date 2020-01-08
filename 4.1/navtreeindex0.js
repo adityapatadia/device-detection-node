@@ -1,0 +1,22 @@
+var NAVTREEINDEX0 =
+{
+"../../documentation/4.1/index.html":[0],
+"annotated.html":[2],
+"classdevice_detection_cloud.html":[2,0],
+"classdevice_detection_cloud.html#a12a508a52b6c600ff19564eea19cfc59":[2,0,0],
+"classdevice_detection_cloud.html#a2fbc7f6fa5deb96dec244f0d98d1fa79":[2,0,1],
+"classdevice_detection_cloud.html#acdae29e42222027c7df6cd24564668af":[2,0,2],
+"classdevice_detection_data_file.html":[2,1],
+"classdevice_detection_data_file.html#a35d599a0b88706a72c14b5287aa72c7a":[2,1,0],
+"classdevice_detection_missing_property_service.html":[2,2],
+"classdevice_detection_missing_property_service.html#adb0d6be6fd3fd4d335a6529965ccb320":[2,2,0],
+"classdevice_detection_on_premise.html":[2,3],
+"classdevice_detection_on_premise.html#a612388194437497193b7a82dbf93e84b":[2,3,0],
+"classdevice_detection_on_premise.html#acbfe9797fbf1d62ea05beece17d87095":[2,3,1],
+"classdevice_detection_pipeline_builder.html":[2,4],
+"classdevice_detection_pipeline_builder.html#aa7c72836719e71c3b153cddc2090035f":[2,4,0],
+"classswig_data.html":[2,5],
+"classswig_data.html#a1afa48aaa767507cc70e383251122d04":[2,5,0],
+"classswig_data.html#a39ce8cd5d44d145003b19f29797934c7":[2,5,1],
+"md__c_1__dev__pipeline_device-detection-node_readme.html":[1]
+};
