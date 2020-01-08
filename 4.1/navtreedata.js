@@ -24,8 +24,9 @@ for the JavaScript code in this file
 var NAVTREE =
 [
     [ "General Docs", "../../documentation/4.1/index.html", null ],
-    [ "readme", "md__c_1__dev__pipeline_device-detection-node_readme.html", null ],
-    [ "Classes", "annotated.html", "annotated" ]
+    [ "readme", "md__d_1__workspace__v4_device-detection-node_readme.html", null ],
+    [ "Classes", "annotated.html", "annotated" ],
+    [ "Examples", "examples.html", "examples" ]
 ];
 
 var NAVTREEHIDEROOT = true;

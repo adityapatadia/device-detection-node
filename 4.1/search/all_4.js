@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['readme',['readme',['../md__c_1__dev__pipeline_device-detection-node_readme.html',1,'']]]
+  ['readme',['readme',['../md__d_1__workspace__v4_device-detection-node_readme.html',1,'']]]
 ];

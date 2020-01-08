@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.15"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>51Degrees Device Detection Node.js: readme</title>
+<title>51Degrees Device Detection Node.js: Examples</title>
 
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
@@ -86,7 +86,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 	<div class="g-docs__sidenav">																														         <nav id="nav-tree-contents" class="c-sidenav">																														     <h4 class="c-sidenav__heading">Documentation</h4>																									         <div id="nav-sync" class="sync"></div>
   <ul class="c-sidenav__list">																														     </ul>																																				   </nav>    </div><script type="text/javascript">
 /* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
-$(document).ready(function(){initNavTree('md__c_1__dev__pipeline_device-detection-node_readme.html','');});
+$(document).ready(function(){initNavTree('examples.html','');});
 /* @license-end */
 </script>
 <div id="doc-content" class="g-docs__content">
@@ -104,44 +104,42 @@ $(document).ready(function(){initNavTree('md__c_1__dev__pipeline_device-detectio
 </iframe>
 </div>
 
-<div class="PageDoc"><div class="g-docs__header">
-<div class="c-breadcrumb">
-  <ul class="c-breadcrumb">
-<li class="c-breadcrumb__item"><a class="c-breadcrumb__link" href="md__c_1__dev__pipeline_device-detection-node_readme.html">readme</a></li>  </ul>
-</div>
-<h2 class="g-docs__page-title">readme </h2></div><!--header-->
+<div class="g-docs__header">
+<h2 class="g-docs__page-title">Examples</h2></div><!--header-->
 <div class="g-docs__inner">
 <div class="g-docs__primary" id="primary">
-<section class="g-docs__section"><img src="https://51degrees.com/DesktopModules/FiftyOne/Distributor/Logo.ashx?utm_source=github&utm_medium=repository&utm_content=readme_main&utm_campaign=node-open-source" alt="51Degrees" title="THE Fastest and Most Accurate Device Detection" class="inline"/>
- <b>v4 Device Detection</b></p>
-<p><a href="https://docs.51degrees.com?utm_source=github&amp;utm_medium=repository&amp;utm_content=documentation&amp;utm_campaign=node-open-source" title="advanced developer documentation">Pipeline Documentation</a> | <a href="https://51degrees.com/resources/property-dictionary?utm_source=github&amp;utm_medium=repository&amp;utm_content=property_dictionary&amp;utm_campaign=node-open-source" title="View all available properties and values">Available Properties</a></p>
-<h2>Introduction</h2>
-<p>This project contains 51Degrees Device Detection engines that can be used with the <a href="https://github.com/51Degrees/pipeline-node">Pipeline API</a>.</p>
-<p>The Pipeline is a generic web request intelligence and data processing solution with the ability to add a range of 51Degrees and/or custom plug ins (Engines)</p>
-<h2>Device detection</h2>
-<p>Device detection can be performed 'on-premise' using a local data file or via the 51Degrees cloud service.</p>
-<p>These options all use the same evidence and property names so can be swapped out as needed.</p>
-<h3>On-Premise</h3>
-<p>When running on-premise, two detection methods are supported.</p>
-<p><a href="https://docs.51degrees.com/documentation/4.1/_device_detection__pattern.html"><b>Pattern</b></a>: Searches for device signatures in a User-Agent returning metrics about the validity of the results. Does NOT use regular expressions.</p>
-<p><a href="https://docs.51degrees.com/documentation/4.1/_device_detection__hash.html"><b>Hash</b></a>: A large binary file populated with User-Agent signatures allowing very fast detection speeds.</p>
-<p>In both cases, a local data file is required. 51Degrees provides <a href="https://51degrees.com/Licencing-Pricing/On-Premise">multiple options</a>, some of which support automatic updates through the Pipeline API.</p>
-<h3>Cloud</h3>
-<p>The device detection cloud engine makes use of the 51Degrees cloud API. As such there is no data file to maintain, processing will always be performed using the latest data available.</p>
-<h3>Examples</h3>
-<p>Usage examples are available for cloud, hash and pattern in <code>fiftyone.devicedetection/examples</code></p>
-<h2>Native code updates</h2>
-<p>Process for rebuilding SWIG interfaces following an update to the device detection cxx code (This is only intended to be run by 51Degrees developers internally):</p>
-<ol type="1">
-<li>Esnure Swig is installed.</li>
-<li>Update the device-detection-cxx submodule to reference the relevant commit.</li>
-<li>From terminal, navigate to fiftyone.pipeline.devicedetection and run: a) swig -c++ -javascript -node hash_node.i b) swig -c++ -javascript -node pattern_node.i</li>
-<li>Commit changes to repository.</li>
-<li>Run the 'Build Device Detection Binaries' Azure CI Pipeline.</li>
-<li>Copy the produced artifacts into the fiftyone.pipeline.devicedetection/build directory.</li>
-<li>Commit changes to repository. </li>
-</ol>
-</section></div><!-- PageDoc -->
+<section class="g-docs__section">51Degrees device detection examples.</section><ul>
+<li><a class="el" href="cloud_2configure_from_file_8js-example.html">cloud/configureFromFile.js</a></li>
+
+<li><a class="el" href="cloud_2failure_to_match_8js-example.html">cloud/failureToMatch.js</a></li>
+
+<li><a class="el" href="cloud_2getting_started_8js-example.html">cloud/gettingStarted.js</a></li>
+
+<li><a class="el" href="cloud_2metadata_8js-example.html">cloud/metadata.js</a></li>
+
+<li><a class="el" href="cloud_2web_integration_8js-example.html">cloud/webIntegration.js</a></li>
+
+<li><a class="el" href="hash_2configure_from_file_8js-example.html">hash/configureFromFile.js</a></li>
+
+<li><a class="el" href="hash_2failure_to_match_8js-example.html">hash/failureToMatch.js</a></li>
+
+<li><a class="el" href="hash_2getting_started_8js-example.html">hash/gettingStarted.js</a></li>
+
+<li><a class="el" href="hash_2metadata_8js-example.html">hash/metadata.js</a></li>
+
+<li><a class="el" href="hash_2web_integration_8js-example.html">hash/webIntegration.js</a></li>
+
+<li><a class="el" href="pattern_2configure_from_file_8js-example.html">pattern/configureFromFile.js</a></li>
+
+<li><a class="el" href="pattern_2failure_to_match_8js-example.html">pattern/failureToMatch.js</a></li>
+
+<li><a class="el" href="pattern_2getting_started_8js-example.html">pattern/gettingStarted.js</a></li>
+
+<li><a class="el" href="pattern_2metadata_8js-example.html">pattern/metadata.js</a></li>
+
+<li><a class="el" href="pattern_2web_integration_8js-example.html">pattern/webIntegration.js</a></li>
+
+</ul>
 </div><!-- primary -->
 </div><!-- inner-->
 <!-- HTML footer for doxygen 1.8.15-->
